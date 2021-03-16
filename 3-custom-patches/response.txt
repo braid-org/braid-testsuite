@@ -1,0 +1,25 @@
+HTTP/1.1 209 Subscription
+content-type: text/plain
+transfer-encoding: chunked
+
+content-length: 1
+
+a
+
+patches: 1
+
+content-length: 7
+content-type: ot-text-unicode
+
+[1,"b"]
+
+patches: 2
+
+content-length: 11
+content-type: ot-text-unicode
+
+[{d:1},"A"]
+content-length: 9
+content-type: ot-text-unicode
+
+[1,{d:1}]
